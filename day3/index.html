@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DemoPAge</title>
+    <link rel="stylesheet" href="./csss/bootstrap.min.css">
+    <link rel="stylesheet" href="./csss/mystyle.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <img src="./images/sriyadithaanimation.gif" alt="banner Images" class="img-responsive">
+        </div>
+        <div class="section2 row ">
+            <div class="col-md-5 topbtn-section">
+                <div class="btn-block block1 ">
+                    <button class="btn btn-md btn-primary btn-padding">Info</button>
+                    <button class="btn btn-md btn-primary btn-padding">Info</button>
+                    <button class="btn btn-md btn-primary btn-padding">Info</button>
+                </div>
+                <div class="btn-block ">
+                    <button class="btn btn btn-primary btn-padding">Info</button>
+                    <button class="btn btn btn-primary btn-padding">Info</button>
+                    <button class="btn btn btn-primary btn-padding">Info</button>
+                </div>
+            </div>
+            <div class="col-md-6">  
+                <div>
+                    <h1>Introduction</h1>
+                    <p id="text1" >Each HTML element has an innerHTML property that defines both the HTML code and the text that occurs between that element's opening and closing tag. By changing an element's
+                            innerHTML after some user interaction, you can make much more interactive pages.</p>
+                    <p>If using javascript and jquery is not a problem I have this solution based on the code of @Tatu Ulmanen. I fixed some issues, and added some code in case the image is loaded dinamically and not available at begining. Basically the idea is to have two different css rules and apply them when required: one when the limitation is the height, so we need to show black bars at the sides, and othe css rule when the limitation is the width, so we need to show black bars at the top/bottom.</p>    
+                </div>
+            </div>
+        </div>
+        <div class="section3 row">
+            <div class="col-md-4 col-sm-12">
+               <ul class="nav nav-tabs ">
+                   <li><a data-toggle='tab' href="#plan1">plan1</a></li>
+                   <li><a data-toggle="tab" href="#plan2">plan2</a></li>
+                   <li><a data-toggle="tab" href="#plan3">plan3</a></li>
+
+               </ul>
+            </div>
+            <div class="col-md-8">
+                <div class="tab-content">
+                        <div id='plan1' class="plan1 tab-pane fade">
+                                <div>
+                                        <h1>Plan1</h1>
+                                </div>
+                                <div>
+                                            <h3>199Rs</h3>
+                                </div>
+                                <table class="table table-striped table-bodered">
+                                <thead>
+                                    <tr>
+                                        <th>S.no</th>
+                                        <th>Network name</th>
+                                        <th>Plan validity</th>                            
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>BSNL</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>BSNL</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>BSNL</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                           
+                                    </tbody>
+                                </table>
+                        </div>
+                        <div id='plan2' class="plan2 tab-pane">
+                                <div>
+                                        <h1>Plan2</h1>
+                                </div>
+                                <div>
+                                            <h3>299Rs</h3>
+                                </div>
+                                <table>
+                                <thead>
+                                    <tr>
+                                        <th>S.no</th>
+                                        <th>Network name</th>
+                                        <th>Plan validity</th>                            
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>BSNL</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>airtel</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Vodaphone</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                           
+                                    </tbody>
+                                </table>
+                        </div>                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.js"></script>
+</body>
+</html>
