@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdowns</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row head">
+            <button class="btn btn-default pull-right lbtn">Login</button>
+        </header>
+        <!-- body -->
+        <div class="row">
+            <!-- side nav -->
+            <aside class="col-md-3">
+                <div class=" btn-block">
+                        <div class="btn-group btn-group-vertical btn-disp">
+                                <button class="btn btn-primary " type="button" onclick="disp(this)">Cricket</button>
+                                <ul >
+                                    <li><a href="#odi" onclick="show(odi)">Odi</a></li>
+                                    <li><a href="#">T20</a></li>
+                                    <li><a href="#">Test</a></li>
+                                </ul>
+
+                                <button class="btn btn-primary  btn-disp" type="button" onclick="disp(this)">Football</button>
+                                <ul class="" id="block2 ">
+                                    <li><a href="#">worldcup</a></li>
+                                    <li><a href="#">Europian cup</a></li>
+                                    <li><a href="#">Odi</a></li>
+                                </ul>
+                        </div>
+                
+                </div>
+                
+                
+            </aside>
+            <div class="col-md-9 ">
+                <div class="odi contents" id="odi">
+                    <h1>One Day International</h1>
+                    <hr>
+                    <div class="div-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Australia_vs_India.jpg/330px-Australia_vs_India.jpg" alt="test cricket address" class="img-responsive ">
+                    </div>
+                    <div class="content">
+                        <p>A One Day International (ODI) is a form of limited overs cricket, played between two teams with international status, in which each team faces a fixed number of overs, usually 50. The Cricket World Cup is played in this format, which is generally held every four years. One Day International matches are also called Limited Overs Internationals (LOI), although this generic term may also refer to Twenty20 International matches. They are major matches and considered the highest standard of List A, limited overs competition.</p>
+                        <p>The international one-day game is a late-twentieth-century development. The first ODI was played on 5 January 1971 between Australia and England at the Melbourne Cricket Ground. When the first three days of the third Test were washed out officials decided to abandon the match and, instead, play a one-off one-day game consisting of 40 eight-ball overs per side. Australia won the game by 5 wickets. ODIs were played in white kits with a red ball.[1]</p>
+
+                    </div>
+                </div>
+                <div class="test contents" id="test">
+                    <h1>Test cricket</h1>
+                    <hr>
+                    <div class="div-img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/England_vs_South_Africa.jpg/450px-England_vs_South_Africa.jpg" alt="test cricket address" class="img-responsive ">
+                    </div>
+                    <div class="content">
+                        <p>Test cricket is the longest form of the sport of cricket and is considered its highest standard.[1][2] Test matches are played between national representative teams with "Test status", as determined and conferred by the International Cricket Council (ICC). The two teams of 11 players each play a four-innings match, which may last up to five days (or longer in some historical cases). It is generally considered the most complete examination of teams' playing ability and endurance.[3][4][5] The name Test stems from the long, gruelling match being both mentally and physically testing.[6]</p> 
+                        <p>The first officially recognised Test match took place on 15–19 March 1877 and was played between England and Australia at the Melbourne Cricket Ground (MCG), where Australia won by 45 runs.[7] A Test match to celebrate 100 years of Test cricket was held in Melbourne on 12–17 March 1977, in which Australia beat England by 45 runs—the same margin as that first Test.[8]</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/myscript.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+</body> 
+</body>
+</html>

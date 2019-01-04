@@ -1,0 +1,37 @@
+.head{
+    height: 75px;
+    background-color: black;
+}
+
+.lbtn{
+    margin-right: 15px;
+    margin-top: 15px;
+}
+ul{
+list-style-type: none;
+display: none;
+
+}
+ li{
+   
+    position: relative;
+    padding-left: 2px;
+    margin-left: -39px;
+    border-radius: 3px;
+    border: 1px solid;
+    /* text-align: center; */
+    padding: 7px;
+}
+button:hover >li{
+    
+}
+.div-img{
+    width: 42%;
+    float: left;
+}
+.btn-disp{
+    display: block;
+}
+.contents{
+    display: none;
+}

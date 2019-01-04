@@ -1,0 +1,14 @@
+ul{
+    display: block;
+    width: 25%;
+    background-color: black;
+    color: #fff;
+    list-style-type: none;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+li ul{
+    display: none;
+}
